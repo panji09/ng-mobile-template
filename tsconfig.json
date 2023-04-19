@@ -18,14 +18,12 @@
     "importHelpers": true,
     "target": "ES2022",
     "module": "es2020",
-    "lib": [
-      "es2020",
-      "dom"
-    ],
+    "lib": ["es2020", "dom"],
     "paths": {
-      "@angular/*": [
-        "./node_modules/@angular/*"
-      ]
+      "@angular/*": ["./node_modules/@angular/*"],
+      "@layout/*": ["src/app/layout/*"],
+      "@shared/*": ["src/app/shared/*"],
+      "@routes/*": ["src/app/routes/*"]
     },
     "useDefineForClassFields": false
   },
