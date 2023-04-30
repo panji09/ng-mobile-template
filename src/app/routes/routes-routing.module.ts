@@ -26,6 +26,13 @@ const routes: Routes = [
         loadChildren: () =>
           import('./gallery/gallery.module').then((m) => m.GalleryModule),
       },
+
+      {
+        path: 'blog',
+        data: { title: 'Blog' },
+        loadChildren: () =>
+          import('./blog/blog.module').then((m) => m.BlogModule),
+      },
     ],
   },
 ];
