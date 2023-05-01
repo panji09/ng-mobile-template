@@ -4,9 +4,10 @@ import { DefaultLayoutComponent } from './default-layout/default-layout.componen
 import { SharedModule } from '@shared/shared.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
-  declarations: [DefaultLayoutComponent, NavbarComponent, FooterComponent],
+  declarations: [DefaultLayoutComponent, NavbarComponent, FooterComponent, HeaderComponent],
   imports: [CommonModule, SharedModule],
 })
 export class LayoutModule {}
